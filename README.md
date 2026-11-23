@@ -45,7 +45,7 @@ Portifolio-Miguel/
 
 ```
 Como Executar Localmente
-```
+
 1- Clone este repositório:
 ```
 git clone https://github.com/miguelmoret81-create/Portifolio-Miguel.git
@@ -53,6 +53,7 @@ git clone https://github.com/miguelmoret81-create/Portifolio-Miguel.git
 2-Navegue até a pasta do projeto.
 
 3-Abra o arquivo index.html em qualquer navegador web ou utilize a extensão Live Server no VS Code.
+```
 ```
 Autor
 Miguel Moret Toledo Silveira
