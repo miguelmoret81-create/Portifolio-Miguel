@@ -58,7 +58,7 @@ git clone https://github.com/miguelmoret81-create/Portifolio-Miguel.git
 Autor
 Miguel Moret Toledo Silveira
 
-LinkedIn: linkedin.com/in/miquels-toledo
+LinkedIn: linkedin.com/in/miguels-toledo
 
 E-mail: miguelmoret81@gmail.com
 
