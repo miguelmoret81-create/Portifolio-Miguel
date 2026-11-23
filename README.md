@@ -2,8 +2,7 @@
 
 Bem-vindo ao repositório do meu portfólio profissional. Este projeto foi desenvolvido como parte da avaliação da disciplina de Desenvolvimento Front-end.
 
-**Acesse o site ao vivo:** [https://miguelmoret81-create.github.io/Portifolio-Miguel/](https://miguelmoret81-create.github.io/Portifolio-Miguel/)
-
+**Acesse o site ao vivo:** https://miguelmoret81-create.github.io/Portifolio-Miguel/
 ## Sobre o Projeto
 
 Este é um site portfólio de página única (one-page) focado em apresentar minhas habilidades, formação acadêmica e projetos. O grande destaque é a integração em tempo real com a API do GitHub, que busca e exibe meus repositórios públicos dinamicamente através de requisições assíncronas.
