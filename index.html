@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Moret | Dev & Security</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="https://ui-avatars.com/api/?name=Miguel+Moret&background=0a0a0a&color=a3ff12" alt="Miguel Moret">
+                <div>
+                    <h1>Miguel Moret Toledo Silveira</h1>
+                    <span>Desenvolvedor Júnior · Web & Application Security</span>
+                </div>
+            </div>
+            <nav>
+                <a href="#projetos" class="active">Projetos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contato">Contato</a>
+                <a href="https://wa.me/5561981557748" target="_blank" class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=miguelmoret81@gmail.com" class="btn-email"><i class="far fa-envelope"></i> E-mail</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero container">
+        <div class="hero-left">
+            <span class="badge-top"><i class="fas fa-circle" style="font-size: 8px;"></i> PORTFÓLIO · WEB & APPLICATION SECURITY</span>
+            <h2>Construindo aplicações web <span class="highlight">seguras</span> e eficientes</h2>
+            <p>Desenvolvedor Júnior com formação em Sistemas de Informação e Cibersegurança (cursando), desenvolvimento web full-stack avançado. Construo aplicações organizadas e penso em como cada uma pode ser atacada — e protegida — desde o primeiro commit.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn-primary">Ver Projetos <i class="fas fa-arrow-right"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=miguelmoret81@gmail.com" class="btn-outline"><i class="far fa-envelope"></i> Enviar e-mail</a>
+                <a href="curriculo-miguel-moret.pdf" download class="btn-outline"><i class="fas fa-download"></i> Baixar Currículo</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <p>miguel@portfolio:~</p>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">$</span> whoami</p>
+                    <p class="output">miguel · desenvolvedor júnior · appsec</p>
+                    
+                    <p><span class="prompt">$</span> formacao --list</p>
+                    <ul class="output">
+                        <li><i class="fas fa-angle-right"></i> Sistemas de Informação — UDF</li>
+                        <li><i class="fas fa-angle-right"></i> Cibersegurança — Cruzeiro do Sul</li>
+                        <li><i class="fas fa-angle-right"></i> Intercâmbio nos EUA (out/2022 – jan/2023)</li>
+                    </ul>
+                    
+                    <p><span class="prompt">$</span> status --security</p>
+                    <p class="output"><i class="fas fa-shield-alt" style="color: #a3ff12;"></i> foco: web & application security <span class="cursor">_</span></p>
+                </div>
+            </div>
+            <div class="stats">
+                <div>
+                    <h3>04</h3>
+                    <p>projetos no currículo</p>
+                </div>
+                <div>
+                    <h3>03</h3>
+                    <p>cursos e certificações</p>
+                </div>
+                <div>
+                    <h3>02</h3>
+                    <p>graduações em curso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section container">
+        <div class="section-title">
+            <h2>Projetos do currículo e repositórios no GitHub</h2>
+            <p>Os quatro projetos principais do meu currículo e, logo abaixo, os repositórios públicos de <strong>miguelmoret81-create</strong> sincronizados com o GitHub.</p>
+            <a href="https://github.com/miguelmoret81-create" target="_blank" class="btn-outline"><i class="fab fa-github"></i> Ver perfil no GitHub <i class="fas fa-external-link-alt"></i></a>
+        </div>
+
+        <div class="grid-projetos">
+            <div class="card">
+                <span class="card-tag">SENAC · DESENVOLVEDOR WEB</span>
+                <h3>Blog CMS & Painel de Conteúdo</h3>
+                <p>CMS para publicação e administração de artigos, com painel restrito, editor Rich Text em tempo real, categorização dinâmica, moderação de comentários com filtro de spam, busca por palavra-chave e controle de sessão seguro.</p>
+                <div class="techs">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span><span>MySQL</span><span>WYSIWYG</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-tag">SENAC · DESENVOLVEDOR WEB</span>
+                <h3>Portal de Agendamento de Serviços Automotivos</h3>
+                <p>Plataforma de agendamento em tempo real, com seleção interativa de serviços, calendário e slots de horários, resumo dinâmico do pedido e validação de disponibilidade. No back-end, sessão segura com JWT, consumo de APIs REST e notificações automáticas.</p>
+                <div class="techs">
+                    <span>React.js</span><span>Node.js</span><span>Express</span><span>Axios</span><span>MySQL</span><span>JWT</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-tag">SENAC · DESENVOLVEDOR WEB</span>
+                <h3>E-Commerce de Auto Peças & Acessórios</h3>
+                <p>Loja virtual com catálogo interativo, filtros por categoria e marca, carrinho, checkout simulado e painel administrativo com gráficos em tempo real. Sanitização rigorosa contra SQL Injection, senhas criptografadas e separação de responsabilidades em MVC.</p>
+                <div class="techs">
+                    <span>PHP (MVC)</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span><span>Chart.js</span>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-tag">UDF · PROJETO INTEGRADOR</span>
+                <h3>Sistema de Gestão Urbana & Logística</h3>
+                <p>Desenvolvimento em equipe focado na modelagem relacional do banco de dados, criação de diagramas E/R e estruturação de endpoints REST.</p>
+                <div class="techs">
+                    <span>Node.js</span><span>MySQL</span><span>Modelagem E/R</span><span>Git/GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container" style="padding-top: 0;">
+        <h3 class="subtitle">Repositórios do GitHub</h3>
+        <div id="repos-container" class="grid-projetos">
+            <p>Carregando repositórios...</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="section container">
+        <div class="sobre-content">
+            <div class="sobre-left">
+                <span class="section-number">02 — SOBRE</span>
+                <h2>Dois caminhos,<br>uma só direção:<br>software que resiste.</h2>
+            </div>
+            <div class="sobre-right">
+                <p>Curso <strong>Sistemas de Informação</strong> na UDF e <strong>Cibersegurança</strong> na Cruzeiro do Sul. Essa dupla formação me ensina a construir aplicações e, ao mesmo tempo, a enxergá-las pelo lado de quem tenta quebrá-las: validação de entrada, controle de acesso, segredos fora do código e dependências sob controle.</p>
+                <p>Também vivi um <strong>intercâmbio nos Estados Unidos</strong>, onde desenvolvi inglês avançado e a rotina de trabalhar e estudar entre idiomas. Some-se a isso a formação de <strong>Desenvolvedor Web (250h)</strong> pelo Senac e o certificado de <strong>Introdução à Cibersegurança pela Cisco Networking Academy</strong>.</p>
+                
+                <div class="formacao-cards">
+                    <div class="f-card">
+                        <span>FORMAÇÃO 1</span>
+                        <h4>Sistemas de Informação</h4>
+                        <p>UDF · cursando · 1º/2030</p>
+                    </div>
+                    <div class="f-card">
+                        <span>FORMAÇÃO 2</span>
+                        <h4>Tecnólogo em Cibersegurança</h4>
+                        <p>Cruzeiro do Sul · EAD · 1º/2028</p>
+                    </div>
+                    <div class="f-card">
+                        <span>IDIOMAS</span>
+                        <h4>Português · Inglês avançado · Espanhol básico</h4>
+                        <p>Intercâmbio EUA out/2022 – jan/2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section container">
+        <div class="habilidades-content">
+            <div class="hab-left">
+                <span class="section-number">03 — HABILIDADES</span>
+                <h2>Ferramentas que uso<br>para construir e revisar.</h2>
+                <p>Do layout à consulta no banco, passando por versionamento — a base que estou aprofundando a cada projeto.</p>
+            </div>
+            <div class="hab-right">
+                <div class="skill-group">
+                    <span class="skill-title">LINGUAGENS</span>
+                    <div class="techs"><span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span><span>PHP</span><span>C++</span></div>
+                </div>
+                <div class="skill-group">
+                    <span class="skill-title">FRONTEND & BACKEND</span>
+                    <div class="techs"><span>React.js</span><span>Node.js</span><span>Express</span><span>Bootstrap</span><span>REST APIs</span><span>AJAX</span></div>
+                </div>
+                <div class="skill-group">
+                    <span class="skill-title">BANCO DE DADOS</span>
+                    <div class="techs"><span>MySQL</span><span>MariaDB</span><span>Modelagem relacional</span><span>SQL</span></div>
+                </div>
+                <div class="skill-group">
+                    <span class="skill-title">FERRAMENTAS & DEVOPS</span>
+                    <div class="techs"><span>Git</span><span>GitHub</span><span>Docker (básico)</span><span>Postman</span><span>Composer</span><span>npm</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section container">
+        <div class="contato-content">
+            <div class="contato-left">
+                <span class="section-number">04 — CONTATO</span>
+                <h2>Aberto a estágio e posições júnior em desenvolvimento e segurança.</h2>
+                <p>Quer conversar sobre um projeto, uma vaga ou uma revisão de segurança? Me chame pelo canal que preferir.</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=miguelmoret81@gmail.com" class="btn-primary" target="_blank">Enviar e-mail <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="contato-right">
+                <a href="https://linkedin.com/in/miquels-toledo" target="_blank" class="contact-link">
+                    <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                    <div>
+                        <span>LINKEDIN</span>
+                        <p>linkedin.com/in/miquels-toledo</p>
+                    </div>
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=miguelmoret81@gmail.com" target="_blank" class="contact-link">
+                    <div class="icon"><i class="far fa-envelope"></i></div>
+                    <div>
+                        <span>E-MAIL</span>
+                        <p>miguelmoret81@gmail.com</p>
+                    </div>
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="https://wa.me/5561981557748" target="_blank" class="contact-link">
+                    <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <span>WHATSAPP</span>
+                        <p>(61) 98155-7748</p>
+                    </div>
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Miguel Moret Toledo Silveira. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/miquels-toledo" target="_blank">LinkedIn</a>
+                <a href="https://github.com/miguelmoret81-create" target="_blank">GitHub</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=miguelmoret81@gmail.com" target="_blank">E-mail</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5561981557748" target="_blank" class="float-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <button id="btn-topo" class="float-top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
